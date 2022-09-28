@@ -1,248 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Project-1 Resume Template</title>
-
+    <title>Resume-HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 </head>
-
 <body>
     <div class="container">
-        <div class="left">
-            <div class="profile">
-                <div>
-                    <img src="./assets/profile.jpg" alt="image" />
-                </div>
-                <h1>HARPER RUSSO</h1>
-                <p>WEB DESIGNER</p>
+        <div class="sidebar">
+            <div class="profile-image">
+                <img src="./assets/profile.jpg" alt="image">
+                <h1>HARPER <br> RUSSO</h1>
+                <h4>WEB DESIGNER</h4>
             </div>
-
-            <div class="details">
+             <div class="side-content">
                 <div class="contact">
-                    <h2><i class="fa fa-user"></i> Contact</h2>
-
-                    <div class="contact-details">
-                        <div class="content">
-                            <div class="left"><i class="fa fa-phone"></i></div>
-                            <div class="right">
-                                <h3>Phone</h3>
-                                <p>123-456-7890</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="left"><i class="fa fa-envelope"></i></div>
-                            <div class="right">
-                                <h3>Email</h3>
-                                <p>hello@reallygreatsite.com</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="left"><i class="fa fa-home"></i></div>
-                            <div class="right">
-                                <h3>Address</h3>
-                                <p>123 Anywhere St., Any Citey</p>
-                            </div>
-                        </div>
+                    <h4  class="heading"> <i class="fa fa-user"></i> CONTACT</h4>
+                    <hr>
+                    <h5 class="heading-content"><i class="fa fa-phone"></i> Phone</h5>
+                    <p class="contact-para">
+                      123-456-7890
+                    </p>
+                    <h5 class="heading-content"><i class="fa fa-envelope"></i>Email </h5>
+                    <p class="contact-para">
+                        hello@greatside.com
+                      </p>
+                    <h5 class="heading-content"><i class="fa fa-home"></i> Address</h5><p class="contact-para">
+                        123,Anywhere St..,Any City.
+                      </p>
                     </div>
-                </div>
-
-                <div class="education">
-                    <h2><i class="fa fa-graduation-cap"></i> Education</h2>
-
-                    <div class="education-details">
-                        <div class="content">
-                            <div class="left"><i class="fa fa-arrow-circle-o-right"></i></div>
-                            <div class="right">
-                                <h3>2005 - 2009</h3>
-                                <h3>Bachelor of Design</h3>
-                                <p>Fauget University</p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="left"><i class="fa fa-arrow-circle-o-right"></i></div>
-                            <div class="right">
-                                <h3>2005 - 2009</h3>
-                                <h3>Master of Design</h3>
-                                <p>Fauget University</p>
-                            </div>
-                        </div>
+                    <div class="education">
+                        <h4 class="heading"><i class="fa fa-graduation-cap"></i> EDUCATION</h4>
+                        <hr>
+                        <h5 class="education-content"><i class="fa fa-arrow-circle-o-right"></i>2005-2009 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor of Design </h5>
+                        <p class="education-para">
+                            Fauget university
+                        </p>
+                        <h5 class="education-content"><i class="fa fa-arrow-circle-o-right"></i>2005-2009 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Master of Design </h5>
+                        <p class="education-para">
+                            Fauget university
+                        </p>
                     </div>
-                </div>
-
-                <div class="language">
-                    <h2><i class="fa fa-globe"></i> Language</h2>
-
-                    <div class="language-details">
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <div class="left">
-                                        <p>English</p>
-                                    </div>
-                                    <div class="right">
-                                        <div class="bar">
-                                            <span class="ninety"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="left">
-                                        <p>Spanish</p>
-                                    </div>
-                                    <div class="right">
-                                        <div class="bar">
-                                            <span class="seventy"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="left">
-                                        <p>Indonesia</p>
-                                    </div>
-                                    <div class="right">
-                                        <div class="bar">
-                                            <span class="fifty"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <div class="language">
+                    <h4 class="language-content">
+                        <i class="fa fa-globe">
+                        </i>
+                        LANGUAGE
+                    </h4> <hr>
+                    <ul class="language-list">
+                        <li>
+                            English
+                        </li>
+                        <li>
+                            Spanish
+                        </li>
+                        <li>
+                            Indonesia
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="main">
+
+        
+        <div class="rightbar">
             <div class="profile-info">
-                <h2><i class="fa fa-user-circle"></i> Profile Info</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas error sed accusantium inventore
-                    similique quidem consequuntur, porro aliquid! Molestias corporis exercitationem praesentium id eaque
-                    sequi, ducimus, repudiandae impedit odit at autem a quidem cumque quos blanditiis rerum corrupti
-                    fugit rem voluptatum facilis animi sunt, laborum non quam! Facilis, maiores obcaecati?
-                </p>
+                <h4 class="info-hading">
+                    <i class="fa fa-user-circle"></i>PROFILE INFO
+                </h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Blanditiis amet fuga laboriosam itaque voluptates perferendis <br>veritatis suscipit velit distinctio, deserunt debitis molestias <br>repudiandae quos saepe aliquid provident reiciendis impedit sint.</p>
             </div>
-
-            <div class="work">
-                <h2><i class="fa fa-briefcase"></i> Work Experience</h2>
-                <div class="content">
-                    <div class="left"><i class="fa fa-arrow-circle-o-right"></i></div>
-                    <div class="right">
-                        <div class="top">
-                            <h3>Junior Graphic Designer</h3>
-                            <h3>2012 - 2015</h3>
-                        </div>
-                        <div class="bottom">
-                            <h3>Brocelle Studios</h3>
-                            <p>Working as graphic designer for 1 year</p>
-                            <p>Post Graduated in Website & Graphics Designing.</p>
-                            <p>Academic Excellence in Web Design.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <div class="left"><i class="fa fa-arrow-circle-o-right"></i></div>
-                    <div class="right">
-                        <div class="top">
-                            <h3>Junior Graphic Designer</h3>
-                            <h3>2012 - 2015</h3>
-                        </div>
-                        <div class="bottom">
-                            <h3>Brocelle Studios</h3>
-                            <p>Working as graphic designer for 1 year</p>
-                            <p>Post Graduated in Website & Graphics Designing.</p>
-                            <p>Academic Excellence in Web Design.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <div class="left"><i class="fa fa-arrow-circle-o-right"></i></div>
-                    <div class="right">
-                        <div class="top">
-                            <h3>Junior Graphic Designer</h3>
-                            <h3>2012 - 2015</h3>
-                        </div>
-                        <div class="bottom">
-                            <h3>Brocelle Studios</h3>
-                            <p>Working as graphic designer for 1 year</p>
-                            <p>Post Graduated in Website & Graphics Designing.</p>
-                            <p>Academic Excellence in Web Design.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="work-info">
+                <h4 class="heading"><i class="fa fa-briefcase"></i> WORK EXPERIENCE</h4>
+                <hr>
+                <h5 class="work-details"><i class="fa fa-arrow-circle-o-right"></i> Junior Graphic Desiger <span class="span">2012-2015</span></h5>
+                <h5 class="work-details-2"> Borcells Studios</h5>
+                <p class="work-para">Working as a graphic designer for 1 year <br>Post Graduated in Website & Graphic Designing <br>
+                Academic Excellence in Web Designing </p>
+                <h5 class="work-details"><i class="fa fa-arrow-circle-o-right"></i> Junior Graphic Desiger <span class="span">2012-2015</span></h5>
+                <h5 class="work-details-2"> Borcells Studios</h5>
+                <p class="work-para">Working as a graphic designer for 1 year <br>Post Graduated in Website & Graphic Designing  </p>
+                <h5 class="work-details"><i class="fa fa-arrow-circle-o-right"></i> Junior Graphic Desiger <span class="span">2012-2015</span></h5>
+                <h5 class="work-details-2"> Borcells Studios</h5>
+                <p class="work-para">Working as a graphic designer for 1 year <br>Post Graduated in Website & Graphic Designing  </p>
             </div>
-
             <div class="skills">
-                <h2><i class="fa fa-list"></i> My Skills & Expertise</h2>
-
-                <div class="content">
-                    <div class="left">
-                        <div class="card">
-                            <p>Graphic Design</p>
-                            <div class="bar">
-                                <span class="ninety"></span>
-                            </div>
+                <h4 class="heading"><i class="fa fa-list"></i> MY SKILLS & EXPERTISE</h4>
+                <hr>
+                <div class="skills-details">
+                    <div class="progress-item">
+                        <p>Graphic Design</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="card">
-                            <p>Web Design</p>
-                            <div class="bar">
-                                <span class="seventy"></span>
-                            </div>
+                    </div>
+                    <div class="progress-item">
+                        <p>Branding</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="card">
-                            <p>Video Editing</p>
-                            <div class="bar">
-                                <span class="fifty"></span>
-                            </div>
+                    </div>
+                    </div>
+                <div class="skills-details">
+                    <div class="progress-item">
+                        <p>Web Design</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <p>Photography</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
-                    <div class="right">
-                        <div class="card">
-                            <p>Branding</p>
-                            <div class="bar">
-                                <span class="ninety"></span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <p>Photography</p>
-                            <div class="bar">
-                                <span class="seventy"></span>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <p>SEO & Marketing</p>
-                            <div class="bar">
-                                <span class="fifty"></span>
-                            </div>
+                </div><div class="skills-details">
+                    <div class="progress-item">
+                        <p>Video Editing</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    <div class="progress-item">
+                        <p>SEO & Marketing</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
             <div class="reference">
-                <h2><i class="fa fa-address-book"></i> My reference</h2>
-                <div class="content">
-                    <div>
-                        <h4>Harumi Kobayashi</h4>
-                        <p>Wardiere Inc. /CEO</p>
-                        <p>123-456-7890</p>
+                <h4 class="heading"> <i class="fa fa-address-book"></i> MY REFERENCE</h4>
+                <hr>
+                <div class="ref-details">
+                    <div class="ref-detail-1">
+                        <h5 class="ref-heading"> Harumi Kobayashi</h5>
+                        <p class="ref-para"> Wardiere inc./CEO <br>123-456-7890</p>
                     </div>
-                    <div>
-                        <h4>Harumi Kobayashi</h4>
-                        <p>Wardiere Inc. /CEO</p>
-                        <p>123-456-7890</p>
+                    <div class="ref-detail-1">
+                        <h5 class="ref-heading"> Francois Mercer</h5>
+                        <p class="ref-para"> Wardiere inc./CEO <br>123-456-7890</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        
+
+
+
+        
     </div>
-
-
-
 </body>
-
 </html>
